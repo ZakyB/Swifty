@@ -212,7 +212,7 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Prenium",
+    title: "Custom",
     description:
       "Concevez un abonnement perosnnalisé pour propulser votre croissance.",
     price: null,
@@ -220,7 +220,7 @@ export const pricing = [
       "Logiciel",
       "Ensemble des fonctionnalités",
       "24/7 Support interne",
-      "Installation et formation prenium",
+      "Installation et formation ",
     ],
   },
 ];
@@ -247,7 +247,7 @@ export const pricing2 = [
   },
   {
     id: "2",
-    title: "Prenium",
+    title: "Custom",
     description:
       "Concevez un abonnement perosnnalisé pour propulser votre croissance.",
     price: null,
@@ -255,7 +255,7 @@ export const pricing2 = [
       "Logiciel",
       "Ensemble des fonctionnalités",
       "24/7 Support interne",
-      "Installation et formation prenium",
+      "Installation et formation ",
     ],
   },
 ];
