@@ -24,8 +24,6 @@ import {
   raindrop,
   recording01,
   recording03,
-  roadmap1,
-  roadmap2,
   roadmap3,
   roadmap4,
   searchMd,
@@ -49,7 +47,7 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Comment l'utiliser",
     url: "#how-to-use",
   },
   {
@@ -93,56 +91,39 @@ export const brainwaveServicesIcons = [
 
 export const roadmap = [
   {
-    id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
-  },
-  {
-    id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
-  },
-  {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    title: "Un chatbot customiser",
+    text: "Permet une aide efficace et rapide en tout temps avec une consistance des réponses pratique pour l'utilisateur.",
+    date: "Janvier 2025",
+    status: "progress",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Intégration avec des API certifiés par Swifty",
+    text: "Ces APIs vont permettre d'étendre les possibilités de customisation des utilisateurs à un tout autre niveau",
+    date: "Juin 2025",
     status: "progress",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Notre intelligence artificielle va vous proposer des plans appropriés à votre restaurant, des suggestions de menus selon l'affluence et énormement plus !";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Integration simple",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Une automatisation intelligente",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Une sécurité au top",
   },
 ];
 
@@ -208,35 +189,73 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Basique",
+    description:
+      "Le logiciel de gestion du restaurant idéal pour vos opérations quotidiennes",
+    price: "80",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Logiciel",
+      "Ensemble des fonctionnalités",
+      "Reporting en temps réel",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Standard",
+    description: "Une solution qui s'adapte et évolue selon vos besoins.",
+    price: "130",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Logiciel",
+      "Ensemble des fonctionnalités",
+      "24/7 Support interne",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Prenium",
+    description:
+      "Concevez un abonnement perosnnalisé pour propulser votre croissance.",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Logiciel",
+      "Ensemble des fonctionnalités",
+      "24/7 Support interne",
+      "Installation et formation prenium",
+    ],
+  },
+];
+
+export const pricing2 = [
+  {
+    id: "0",
+    title: "Basique",
+    description:
+      "Le logiciel de gestion du restaurant idéal pour vos opérations quotidiennes",
+    price: "90",
+    features: ["Logiciel", "Ensemble des fonctionnalités", "coucou"],
+  },
+  {
+    id: "1",
+    title: "Standard",
+    description: "Une solution qui s'adapte et évolue selon vos besoins.",
+    price: "150",
+    features: [
+      "Logiciel",
+      "Ensemble des fonctionnalités",
+      "24/7 Support interne",
+    ],
+  },
+  {
+    id: "2",
+    title: "Prenium",
+    description:
+      "Concevez un abonnement perosnnalisé pour propulser votre croissance.",
+    price: null,
+    features: [
+      "Logiciel",
+      "Ensemble des fonctionnalités",
+      "24/7 Support interne",
+      "Installation et formation prenium",
     ],
   },
 ];
@@ -244,16 +263,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Gestion des commandes",
+    text: "Swifty peut vous permet de gérer les commandes directement depuis l'application avec une très grande facilité.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Plannification et affectation du personnel",
+    text: "L'application vous permet d'attribuer des rôles à vos employés et de directement créer/mettre à jour leur emploi du temps.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +280,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Suivi efficace des stocks et approvisionnements",
+    text: "Swifty propose une gestion des stocks en temps réel et de l'ensemble des commandes passées par les gérants.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Des réponses extrêmement rapide",
+    text: "Nous équipe est disponible 24h/24 7jours/7 pour toute demande ou problème ainsi que pour l'ensemble des formations de nous proposons.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +297,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Un service plus rapide",
+    text: "Commandez directement sur votre smartphone ou avec un serveur possèdant une de nos tablette pour des commandes toujours plus rapides.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Sécurité et conformité",
+    text: "Les informations sensibles seront gérés automatiquement en respectant l'ensemble des règles du RGPD. Les règlementations n'auront plus aucun secret pour vous !",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

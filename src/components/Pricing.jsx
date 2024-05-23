@@ -2,6 +2,7 @@ import Section from "./Section";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
+import PricingList2 from "./PricingList2";
 import { LeftLine, RightLine } from "./design/Pricing";
 
 const Pricing = () => {
@@ -28,12 +29,19 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Développez vous avec nous"
+          title="Pricing Swifty - Annuellement"
         />
 
         <div className="relative">
           <PricingList />
+          <LeftLine />
+          <RightLine />
+        </div>
+        <Heading title="Pricing Swifty - Mensuellement" />
+
+        <div className="relative">
+          <PricingList2 />
           <LeftLine />
           <RightLine />
         </div>
@@ -43,7 +51,7 @@ const Pricing = () => {
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="/pricing"
           >
-            See the full details
+            Voir tous les détails
           </a>
         </div>
       </div>

@@ -435,7 +435,7 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Comment l'utiliser",
     url: "#how-to-use",
   },
   {
@@ -630,7 +630,7 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
+    title: "Demandez n'importe quoi",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
